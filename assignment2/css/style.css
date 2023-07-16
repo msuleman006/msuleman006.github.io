@@ -47,17 +47,20 @@ div {
 .sub1 {
     background-color: #FFB6C1;
     margin-bottom: 10px; /* Added margin-bottom */
+    margin-top: 0px;
 }
 
 .sub2 {
     background-color: #FF0000;
     color: white;
+    margin-top: 0px;
     margin-bottom: 10px; /* Added margin-bottom */
 }
 
 .sub3 {
     background-color: rgb(223, 212, 121);
     color: black;
+    margin-top: 0px;
     margin-bottom: 10px; /* Added margin-bottom */
 }
 
