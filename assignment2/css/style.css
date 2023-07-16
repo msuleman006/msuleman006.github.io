@@ -1,0 +1,116 @@
+/* basic style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid black;
+    width: 100%;
+    margin: 10px auto; /* Updated margin property */
+}
+
+.sub1,
+.sub2,
+.sub3 {
+    width: 100%;
+    padding: 5px;
+    border: 3.5px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.sub1 {
+    background-color: #FFB6C1;
+    margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.sub2 {
+    background-color: #FF0000;
+    color: white;
+    margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.sub3 {
+    background-color: rgb(223, 212, 121);
+    color: black;
+    margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 3px;
+    height: 150px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+/* desktop version */
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* tablet version */
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin: 0 auto; /* Updated margin property */
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin: 0 auto; /* Updated margin property */
+    }
+}
+
+/* mobile version */
+@media (max-width: 707px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+
+    .sub1,
+    .sub2,
+    .sub3 {
+        float: none;
+        width: 100%;
+        margin: 0; /* Removed margin property */
+    }
+}
